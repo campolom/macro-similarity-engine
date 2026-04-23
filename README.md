@@ -47,3 +47,16 @@ pip install -r requirements.txt
 
 Bash
 streamlit run app.py
+
+📂 Struttura del Progetto
+app.py: L'applicazione Streamlit (Frontend e logica di visualizzazione).
+
+macro_engine_v5.py: Il cuore algoritmico (Calcolo Mahalanobis e KNN).
+
+requirements.txt: Elenco delle librerie necessarie (Pandas, NumPy, SciPy, yFinance, Streamlit).
+
+📊 Interpretazione dei Risultati
+Il sistema restituisce un Forecast Ponderato. Se l'analogia rilevata si concentra su periodi di "Soft Landing" (come il tardo 2024 o il 1999), il modello tenderà a proiettare rendimenti positivi. Se le distanze statistiche si riducono verso i regimi del 2008 o 2022, il sistema attiverà segnali di allerta per rischio sistemico.
+
+⚖️ Disclaimer
+Questo software è a scopo puramente educativo e di ricerca quantitativa. Non costituisce consulenza finanziaria. Le performance passate non sono garanzia di risultati futuri.
